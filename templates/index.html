@@ -9,19 +9,12 @@
     <link rel="stylesheet" href="/static/styles.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </nav>
     <header>
       <h1>Weather Data API</h1>
     </header>
     <main>
       <p>Welcome to the Weather Data API app!</p>
-      <img src="{{url_for('static', filename='weather.webp')}}"" alt="Weather
-      Image" style="height: 200px; width: 200px">
+      <p>{{data|safe}}</p>
     </main>
     <footer>
       <p>&copy; 2025 Weather Data API App</p>
