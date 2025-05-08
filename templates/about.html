@@ -3,15 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>About | Weather Data API</title>
     <link rel="stylesheet" href="/static/styles.css" />
-    <!-- Optional: Link to a CSS file -->
   </head>
   <body>
     <header>
-      <h1>About Us</h1>
+      <div class="container">
+        <h1>About Us</h1>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+        </nav>
+      </div>
     </header>
-    <main>
+    <main class="container">
       <section>
         <h2>Our Mission</h2>
         <p>
@@ -23,12 +28,15 @@
         <h2>About the App</h2>
         <p>
           This app uses a weather data API to fetch real-time weather
-          information for your location.
+          information for your location. It's designed to be simple, fast, and
+          developer-friendly.
         </p>
       </section>
     </main>
     <footer>
-      <p>&copy; 2025 Weather Data API App. All rights reserved.</p>
+      <div class="container">
+        <p>&copy; 2025 Weather Data API App. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
